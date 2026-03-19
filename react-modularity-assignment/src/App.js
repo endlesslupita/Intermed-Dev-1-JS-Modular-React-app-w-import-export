@@ -8,20 +8,37 @@ import Header from './components/Header.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="Header">
+        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Testing header content
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
       </header>
+
+      <body className="ContentA">
+        
+        <p>
+          Testing body content A
+        </p>
+        
+      </body>
+
+      <body className="ContentB">
+        
+        <p>
+          Testing body content B
+        </p>
+        
+      </body>
+            
+      <footer className="Footer">
+        
+        <p>
+          Testing footer content
+        </p>
+        
+      </footer>
     </div>
   );
 }
