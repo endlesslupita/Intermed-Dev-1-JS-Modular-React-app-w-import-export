@@ -2,9 +2,8 @@ import { Button } from './SharedComponents';
 
 export function ContentA() {
   return (
-    <section>
-      <h2>Content A</h2>
-      <p>This is the first content section.</p>
+    <section>Learn more about the Lean Startup Approach</h2>
+      <p>Business-Model-Canvas.jpg</p>
       <Button label="Content A Button" />
     </section>
   );
