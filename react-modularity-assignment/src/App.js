@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { ContentA } from './components/ContentA.js';
 import { ContentB } from './components/ContentB.js';
