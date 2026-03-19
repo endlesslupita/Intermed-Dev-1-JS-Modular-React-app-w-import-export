@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { ContentA } from './components/ContentA.js';
+import { ContentB } from './components/ContentB.js';
+import Footer from './components/Footer.js';
+import Header from './components/Header.js';
 
 function App() {
   return (
