@@ -8,37 +8,10 @@ import Header from './components/Header.js';
 function App() {
   return (
     <div className="App">
-      <header className="Header">
-        
-        <p>
-          Testing header content
-        </p>
-        
-      </header>
-
-      <body className="ContentA">
-        
-        <p>
-          Testing body content A
-        </p>
-        
-      </body>
-
-      <body className="ContentB">
-        
-        <p>
-          Testing body content B
-        </p>
-        
-      </body>
-            
-      <footer className="Footer">
-        
-        <p>
-          Testing footer content
-        </p>
-        
-      </footer>
+      <Header />
+      <ContentA />
+      <ContentB />
+      <Footer />
     </div>
   );
 }
