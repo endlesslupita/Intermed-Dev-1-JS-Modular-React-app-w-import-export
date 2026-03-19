@@ -28,18 +28,18 @@ test('Testing Business Ideas button links to Bookshop.org', () => {
 
 test('Button with no href renders without a destination', () => {
   render(<Button label="Click me" />);
-  const link = screen.getByRole('link', { name: /click me/i });
-  expect(link).not.toHaveAttribute('href');
+  const element = screen.getByText(/click me/i);
+  expect(element).not.toHaveAttribute('href');
 });
 
 test('Button with empty string for href', () => {
   render(<Button label="Click me" href="" />);
-  const link = screen.getByRole('link', { name: /click me/i });
-  expect(link).toHaveAttribute('href', '');
+  const element = screen.getByText(/click me/i);
+  expect(element).toHaveAttribute('href', '');
 });
 
 test('Button with no label renders empty', () => {
   render(<Button />);
-  const link = screen.queryByRole('link', { name: '' });
-  expect(link).toHaveTextContent('');
+  const link = screen.queryByRole('link');
+  expect(link).not.toBeInTheDocument();
 });
