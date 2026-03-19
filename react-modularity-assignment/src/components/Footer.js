@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>&copy; 2026 My Modular React App</p>
+      <p>Support your local independent bookstore or library</p>
     </footer>
   );
 }
